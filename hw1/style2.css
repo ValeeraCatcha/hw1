@@ -1,0 +1,33 @@
+p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+body{
+	background-color: #c0c0c0;
+	font-family: Georgia, Times, serif;
+}
+.anketa{
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	margin: 1px 29% 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+.avatar {
+	width: 220px;
+	height: 320px;
+}
+.centr {
+	text-align: center;
+}
+
+.content {
+	size: 16px;
+	padding:20px 20px 10px;
+	
+}
+.border {
+	border-bottom: 1px solid #c0c0c0;
+}
