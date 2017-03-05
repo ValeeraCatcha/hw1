@@ -1,17 +1,13 @@
 body {
 	background-color: #f9f9f9;
+	font-family: OpenSans, Ubuntu, Antic, sans-serif;
 } 
-@font-face {
-    font-family: 'OpenSans';
-    src: url(../fonts/OpenSans.ttf);
-}
 .wrapper {
 	margin: auto;
 	padding: 50px 48px 60px 46px;
 	width: 1060px;
 	background-color: #ffffff;
 	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
-	font-family: 'OpenSans';
 }
 /*HEADER*/
 .top-menu {
@@ -28,7 +24,6 @@ body {
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 	color: #ffffff;
 	font-size: 15px;
-	font-weight: 400;
 }
 .top-menu a:hover {
 	background-color: #ffffff;
@@ -87,6 +82,7 @@ body {
 	padding-right: 26px;
 	background-color: #e1e1e1;
 	background-image: linear-gradient(to top, #e1e1e1 0%, #e1e1e1 100%);
+	font-size: 13px;
 }
 .footer a{
 	float: left;
@@ -94,7 +90,6 @@ body {
 	padding: 16px 10px 12px;
 	margin-right: 70px;
 	color: #2c2c2c;	
-	font-size: 13px;
 }
 .footer a:hover {
 	text-decoration: underline;	
@@ -104,24 +99,23 @@ body {
 	padding-top: 16px;
 	padding-bottom: 12px
 	color: #2c2c2c;	
-	font-size: 13px;
 }
 /*additional footer*/
 .inline-footer{
+	overflow: hidden;
 	margin-top: 40px;
 	padding-left: 15px;
 	padding-right: 26px;
 	background-color: #e1e1e1;
 	background-image: linear-gradient(to top, #e1e1e1 0%, #e1e1e1 100%);
-	overflow: hidden;
+	font-size: 13px;	
 }
 .inline-footer a{
 	float: left;
 	display: inline-block;
 	padding: 16px 10px 12px;
 	margin-right: 70px;
-	color: #2c2c2c;	
-	font-size: 13px;
+	color: #2c2c2c;		
 }
 .inline-footer a:hover {
 	text-decoration: underline;	
