@@ -1,11 +1,11 @@
 @media only screen and (max-width: 1080px) {
-	.header__content, .banner__content, .content, .information__content, .footer__content {
+	.header__wrapper, .banner__wrapper, .content, .information__content, .footer__wrapper {
 		width: 95%;
 	}
-	.banner__content__info {
+	.banner__info {
 		margin-top: 40px;
 	}
-	.banner__content__info__button {
+	.banner__info__button {
 		margin-top: 20px;
 		margin-bottom: 20px;
 	}
@@ -14,13 +14,13 @@
 	.subscription {
 		justify-content: center;
 	}
-	.banner__content {
+	.banner__wrapper {
 		justify-content: space-between;
 	}
-	.banner__content__page1,.banner__content__page2 {
+	.banner__page1,.banner__page2 {
 		display: none;
 	}
-	.banner__content__page3 {
+	.banner__page3 {
 		position: static;
 		margin-top: 40px;
 	}
@@ -29,21 +29,21 @@
 	}
 }
 @media only screen and (max-width: 800px) {
-	.banner__content {
+	.banner__wrapper {
 		padding-top: 10px;
 		display: block;
 	}
-	.banner__content__page3 {
+	.banner__page3 {
 		margin: 0 auto;
 		width: 400px;
 	}
-	.banner__content__info {
+	.banner__info {
 		margin: 0 auto;
 		width: 95%;
 	}
 }
 @media only screen and (max-width: 700px) {
-	.header__content__menu__item {
+	.header__menu__item {
 		margin-left: 10px;
 	}
 	.services__box1,.services__box2, .services__box3,
@@ -56,7 +56,7 @@
 	}
 }
 @media only screen and (max-width: 600px) {
-	.header__content__menu {
+	.header__menu {
 		display: none;
 	}
 	.responsive-menu {
@@ -79,14 +79,14 @@
 	}
 }
 @media only screen and (max-width: 480px) {
-	 .banner__content__page3>img {
+	 .banner__page3>img {
 		width: 300px;
 	}
-	.banner__content__page3 {
+	.banner__page3 {
 		width: 300px;
 		margin-bottom: 20px;
 	}
-	.banner__content__page3::after{
+	.banner__page3::after{
 		display: none;
 	}
 }

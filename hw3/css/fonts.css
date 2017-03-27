@@ -6,3 +6,7 @@
     font-family: DroidSans;
     src: url(../fonts/DroidSans.ttf);
 }
+@font-face {
+	font-family: "Trebushet MS";
+	src: url(../fonts/Trebuchet MS.ttf);
+}
