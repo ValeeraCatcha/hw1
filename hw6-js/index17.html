@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Chapter17</title>
+</head>
+<body>
+	<!-- 1) nope -->
+	<script type="text/javascript">
+		function checkAge(age) {
+			return (age > 18) ? true : confirm('Родители разрешили?');
+		}
+		function checkAge(age) {
+			return (age > 18) || confirm('Родители разрешили?');
+		}
+	</script>
+	<script type="text/javascript">
+		function min(a, b) {
+			if (a < b) {
+				return a;
+			} 
+			else {
+				return b;
+			}
+		}
+	</script>
+	<script type="text/javascript">
+		function pow(x, n) {
+			var result = x;
+				for (var i = 1; i < n; i++) {
+		   			result *= x;
+				}
+			return result;
+		}
+		var x = prompt('enter x?', '');
+		var n = prompt('enter n?', '');
+		if (n < 2) {
+			alert('фигню ввел, давай по новой');
+		} 
+		else {
+			alert(pow(x, n));
+		}
+	</script>
+</body>
+</html>

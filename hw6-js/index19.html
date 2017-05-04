@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>chapter19</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function sumTo(n) {
+			var result = 0;
+		  		for (var i = 1; i <= n; i++) {
+		    		sum += i;
+		  		}
+			return result;
+		}
+		alert(sumTo(100));
+	</script>
+	<script type="text/javascript">
+		function sumTo(n) {
+			if (n == 1) return 1;
+		  	return n + sumTo(n - 1);
+		}
+		alert(sumTo(100));
+	</script>
+	<script type="text/javascript">
+		function sumTo(n) {
+			return n * (n + 1) / 2;
+		}
+		alert(sumTo(100));
+	</script>
+	<script type="text/javascript">
+		function factorial(n) {
+		 	if(n==1) {
+		 		return n;
+		 	} 
+		 	else {
+		 		return n * factorial(n-1);
+		 	}
+		 }
+		 alert(factorial(5));
+	</script>
+	<script type="text/javascript">
+		function fib(n) {
+			var x1 = 1, 
+				x2 = 1;
+				for (var i = 3; i <= n; i++) {
+		   			var x3 = x1 + x2;
+		    			x1 = x2;
+		    			x2 = x3;
+		  		}
+		  	return x2;
+		}
+	</script>
+</body>
+</html>
